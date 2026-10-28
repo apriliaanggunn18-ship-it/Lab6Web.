@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+
+.teks-besar {
+    font-size: 1.4rem;
+}
+input {
+    padding: 8px;
+    margin: 5px 0;
+}
+.selesai span {
+    text-decoration: line-through;
+    color: #687386;
+}
+
+li {
+    margin-bottom: 8px;
+}

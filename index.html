@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum DOM dan Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="judul">Latihan DOM</h1>
+    <p id="pesan">Belum ada tindakan.</p>
+    <button id="tombolAksi" type="button">Klik Saya</button>
+</body>
+</html>
+<h2>Latihan 3 - Mengubah Gaya</h2>
+
+<p id="teksGaya">
+    Ini adalah paragraf untuk latihan CSS.
+</p>
+
+<button id="tombolGaya" type="button">
+    Ubah Gaya
+</button>
+<h2>Latihan 4 - Penghitung Karakter</h2>
+
+<label for="namaInput">Nama:</label>
+<input type="text" id="namaInput" maxlength="40">
+
+<p>
+    Jumlah karakter:
+    <span id="jumlahKarakter">0</span>
+</p>
+<h2>Latihan 5 - Form Pendaftaran</h2>
+
+<form id="formPendaftaran" novalidate>
+    <label for="nama">Nama lengkap</label>
+    <input id="nama" name="nama" type="text">
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email">
+
+    <label for="usia">Usia</label>
+    <input id="usia" name="usia" type="number"
+           min="17" max="100">
+
+    <button type="submit">Daftar</button>
+</form>
+
+<p id="pesanForm"></p>
+<h2>Latihan 6 - Daftar Tugas</h2>
+
+<label for="inputTugas">Tugas baru</label>
+<input id="inputTugas" type="text">
+
+<button id="tambahTugas" type="button">Tambah</button>
+
+<p id="pesanTugas"></p>
+<ul id="daftarTugas"></ul>
+<h2>Mini Project - Pendaftaran Workshop</h2>
+
+<form id="formWorkshop" novalidate>
+    <label for="namaWorkshop">Nama lengkap</label>
+    <input id="namaWorkshop" type="text">
+
+    <p>
+        Jumlah karakter:
+        <span id="jumlahNamaWorkshop">0</span>
+    </p>
+
+    <label for="emailWorkshop">Email</label>
+    <input id="emailWorkshop" type="email">
+
+    <label for="sesiWorkshop">Pilih sesi workshop</label>
+    <select id="sesiWorkshop">
+        <option value="">-- Pilih sesi --</option>
+        <option value="Pagi">Pagi (09.00-11.00)</option>
+        <option value="Siang">Siang (13.00-15.00)</option>
+        <option value="Sore">Sore (15.30-17.00)</option>
+    </select>
+
+    <p id="sesiDipilih">Sesi yang dipilih: belum ada</p>
+
+    <button type="submit">Daftar Workshop</button>
+    <button type="reset">Hapus Input</button>
+</form>
+
+<p id="pesanWorkshop"></p>
+<div id="ringkasanWorkshop" hidden></div>
